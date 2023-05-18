@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>속성</title>
+</head>
+<body>
+    <h1>속성</h1>
+    <p>태그는 보여주어야 할 컨텐츠는 태그의 시작과 마침태그 사이에 입력하고 부차적인 정보는 속성을 통해서 입력할 수 있다.</p>
+    <p>기본형태 속성명="속성값" 의 형태를 가진다.</p>
+    <p>속성은 시작태그에서 한칸띄워서 구분해서 입력한다.</p>
+    <p>속성값을 저장하기위한 =(등호)는 같다는 뜻이 아니라, 등호 기준 우측에있는 값을 왼쪽에 저장하기 위한 대입연산(문)자로 쓰인다.</p>
+    <p>속성 값은 값의 앞뒤로 쌍따옴표 혹은 홑따옴표로 값이라는 것을 명확히 표현해야 한다.</p>
+    <hr>
+    <h2>링크태그</h2>
+    <p>a태그는 href(목적지)라는 속성이 반드시 쓰여야 하며, 새 탭에서 페이지 이동을 시키게 하고싶은 경우 target이라는 속성을 사용하여 "_blank"라는 값을 넣어준다.</p>
+    <p>링크태그는 강조태그처럼 필요한 단어나 문장에 자유롭게 사용가능하다.</p>
+
+    <a target="_blank" href="https://www.naver.com/">네이버로 바로가기</a>
+    <a href="https://www.daum.net/">다음으로 바로가기</a>
+    <p>Lorem ipsum dolor sit amet, <a href="https://www.naver.com/">consectetur</a> adipisicing elit. Aut reprehenderit nemo, alias animi illum iste atque tempore sint unde, perferendis facilis ab rem ad aliquid tenetur dolores, natus eaque sed?</p>
+
+    <h2>절대경로와 상대경로</h2>
+    <h3>절대경로</h3>
+    <p>절대경로는 주로 웹 상에서 긁어온 변하지않는 경로를 뜻한다.</p>
+    <hr>
+    <h3>상대경로</h3>
+    <p>상대경로는 현재파일을 기준으로 했을 때 목적지파일까지의 경로</p>
+    <p>
+        . -> 현재 파일의 위치를 불러옴<br>
+        .. -> 현재파일의 위치 기준 상위폴더의 위치를 불러옴<br>
+        / -> 폴더를 연다
+    </p>
+    <a href="./study2.html">스터디2페이지로 바로가기</a>
+    <a href="../welcome.html">welcome페이지로 이동하기</a>
+
+</body>
+</html>

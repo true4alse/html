@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영역 - div</title>
+</head>
+<body>
+    <h1>div - 영역태그</h1>
+    <p>디자인 시안보고 가장먼저 html문맥을 만들기전에 영역을 구성해야 한다.</p>
+    <p>영역구성하는 방법은 서로 맥락이 다른 컨텐츠를 구분하는데 자유롭게 사용할 수 있다.</p>
+    <p>이 때, 영역태그의 이름이 계속 중복되어서 나중에 유지보수하기에 힘들것을 방지하기위해 class/id속성을 사용하여 이름을 지어주면 가독성이 더 좋아진다.</p>
+    <hr>
+    <p>tip)디자인 배치를 보았을 때 좌우로 명백히 나란히 배치되어있는 영역이보인다면 반드시 영역태그로 나누어주어야 한다.</p>
+
+    <p>header/main/footer/aside</p>
+    <ul>
+        <li>header - 상단영역을 구성할 때 사용하는 태그(주로 로고와 주메뉴 컨텐츠가 포함된다)</li>
+        <li>main - 홈페이지의 주컨텐츠를 구성할 때 사용하는 태그</li>
+        <li>footer - 홈페이지의 주체(회사)정보를 나타내는 하단정보를 구성할 때 사용하는 태그</li>
+        <li>aside - 홈페이지의 사이드메뉴 영역을 구성할 때 사용하는 태그</li>
+        <li>section - 영역 구성 태그</li>
+        <li>nav - 메뉴컨텐츠 영역을 구성할 때 사용하는 태그</li>
+    </ul>
+
+    <div id="container">
+        <header>
+            <div class="search"></div>
+            <nav></nav>
+        </header>
+        <main>
+            <div class="mainLeft"></div>
+            <div class="mainRight"></div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>

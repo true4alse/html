@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표</title>
+    <!-- <style>
+        td{transition:all 0.5s ease 0s;}
+        td:hover{background:blue;color:white;transform:scale(1.2)rotate(360deg)}
+    </style> -->
+</head>
+<body>
+    <h1>표태그 - table</h1>
+    <p>표를 구성할 때 사용하는 태그</p>
+    <p>표는 tr태그(행태그)를 사용하여 먼저 행을 만든 후 왼쪽부터 셀들을 입력하는 규칙으로 작성한다.</p>
+    <p>셀들을 입력하는 태그 일반셀태그(td태그) / 제목셀태그(th태그)</p>
+    <p>표 안에서 제목을 나타내고 싶다면 caption이라는 태그를 사용할 수 있다.</p>
+
+    <h2>셀 병합 규칙</h2>
+    <ol>
+        <li>병합이 시작되는 셀을 찾아서 가로병합(colspan)/세로병합(rowspan)속성을 사용한다.</li>
+        <li>병합이 되어지는 셀태그는 지운다.</li>
+    </ol>
+    <p>병합이 시작되는 셀을 찾는 방법은 컨텐츠를 입력하는 순서의 흐름과 같이 [위->아래,좌->우]흐름과 같다.</p>
+    <p>tip)병합되기전 모습을 완성한 후 마지막에 병합작업 한다.</p>
+
+
+    <!-- <h2>대표시간표</h2> -->
+    <table border="1">
+        <caption>대표시간표</caption>
+        <tr>
+            <th></th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+        </tr>
+        <tr>
+            <th>오전</th>
+            <td colspan="2" rowspan="2">출근</td>
+                      
+            <td>휴무</td>
+            <td>출근</td>
+            <td>휴무</td>
+        </tr>
+        <tr>
+            <th>오후</th>
+           
+            
+            <td>출근</td>
+            <td>출근</td>
+            <td>휴무</td>
+        </tr>
+    </table>
+</body>
+</html>
