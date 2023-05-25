@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자의 우선순위 점수</title>
+    <style>
+        p.a.c#b{color:black;}
+        p.c.a{color:blue;}
+        p.a{color:red;}
+        .a{color:blue}
+        p{color:red}
+    </style>
+</head>
+<body>
+    <h1>선택자의 우선순위 점수</h1>
+    <p class="a c" id="b">선택자의 우선순위점수가 같다면 위에서 아래로의 해석흐름으로 인해 상대적으로 아래부분에 입력한 스타일이 최종 적용이 된다. 하지만 위에서 아래로의 해석흐름보다 선택자의 우선순위점수가 높은 스타일을 더 우선적용한다.</p>
+    <ul>
+        <li>태그명으로 선택 - 우선순위점수 1점</li>
+        <li>클래스명으로 선택 - 우선순위점수 10점</li>
+        <li>아이디명으로 선택 - 우선순위점수 100점</li>
+        <li>인라인스타일방식 - 우선순위점수 1000점</li>
+        <li>css 에서 !important 키워드를 통해 스타일을 무조건 적용할 수 있다</li>
+    </ul>
+    <p>선택자의 우선순위점수는 합산된다.</p>
+</body>
+</html>

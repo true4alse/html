@@ -1,0 +1,40 @@
+@font-face{
+    font-family:wd1;
+    src:url("../font/wd_bold.ttf");
+}
+@font-face {
+    font-family:"완주대둔레귤러";
+    src: url("../font/wd_reg.ttf");
+}
+
+
+.txtBox{
+    font-family: dotum,"돋움",sans-serif;
+    /*
+     dotum이라는 글씨체를 적용한다
+     만약에 dotum이라는 글씨체가 브라우저에 설치가 되지 않았을 경우
+     "돋움"이라는 글씨체를 적용한다
+     만약에 "돋움"이라는 글씨체가 설치되지 않았을 경우 
+     sans-serif(획이없는 고딕체 계열)로 적용한다
+    */
+    font-size:24px;
+}
+.wdFont{
+    font-family:wd1;
+}
+.wdFontReg{
+    font-family:"완주대둔레귤러";
+}
+
+@font-face {
+    font-family: 'GoryeongStrawberry';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/GoryeongStrawberry.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.kryFont{
+    font-family: 'GoryeongStrawberry';
+}
+.playfair{
+    font-family: 'Playfair', serif;
+}

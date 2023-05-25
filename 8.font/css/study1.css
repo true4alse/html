@@ -1,0 +1,50 @@
+html{
+    font-size:24px;
+}
+.a{
+    /* font-size:40px; */
+    font-size:2em;
+    /* 1em은 부모태그에 적용된 글씨크기 */
+}
+.a b{font-size:0.5em;}
+.a i{
+    font-size:0.5rem;
+    /* 1rem은 html태그에 적용된 글씨크기 */
+}
+.b{
+    font-weight:400;
+    /* bold/normal/lighter */
+    /* 100~900까지 100단위로 글씨의 굵기를 표현할 수 있음 숫자가 클수록 글씨는 굵게 표현됨 */
+}
+.c{
+    font-style:italic;
+    font-style:normal;
+}
+.d{
+    line-height: 2; /*48px 계산됨*/
+}
+.e{
+    text-indent:48px;
+}
+.f{
+    letter-spacing:10px;
+}
+.g{
+    word-spacing:30px;
+}
+.h{
+    text-decoration: underline;
+    text-decoration: line-through;
+    color:gray;
+}
+.i{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+.j{
+    text-align: justify;
+    /* left/right/center/justify */
+    word-break: break-all;
+    /* word-break 텍스트가 줄바꿈되어지는 상황에서 단어가 끊어지지않게 혹은 단어가 끊어지도록 설정하는 css속성  */
+}

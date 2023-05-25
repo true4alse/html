@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타일의 상속</title>
+    <style>
+        div.box{color:red;}
+        h2{color:blue;}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>스타일상속</h2>
+        <p>부모태그에 적용한 스타일은 자식태그에 전달된다.</p>
+        <p>이 상속스타일은 우선순위점수와 관계없이 언제나 후순위로 밀리게 된다.</p>
+        <p>부모태그에 적용한 상속스타일은 자식태그를 직접 선택해서 적용한 스타일에 항상 밀린다</p>
+        <p>스타일의 상속은 언제나 적용되지는 않는다.(모든css속성에 적용되지 않는다.)</p>
+        <ul>
+            <li>상속스타일은 언제나 적용되지 않는다.</li>
+            <li>상속스타일은 내리 상속된다.</li>
+        </ul>
+    </div>
+</body>
+</html>
